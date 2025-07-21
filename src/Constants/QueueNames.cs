@@ -44,6 +44,7 @@ namespace FastTechFoodsOrder.Shared.Constants
         /// Fila para eventos de pedidos cancelados
         /// </summary>
         public const string OrderCancelled = "order.cancelled.queue";
+        public const string OrderUserCancelled = "order.user.cancelled.queue";
 
         /// <summary>
         /// Obtém todas as filas de eventos de pedidos
