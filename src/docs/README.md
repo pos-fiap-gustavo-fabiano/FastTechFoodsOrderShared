@@ -18,13 +18,15 @@ Uma biblioteca compartilhada .NET para o sistema FastTechFoods, fornecendo compo
 
 ## 🚀 Sobre o Projeto
 
-O FastTechFoodsOrder.Shared é uma biblioteca desenvolvida para centralizar componentes comuns utilizados no ecossistema de pedidos do FastTechFoods. Esta biblioteca fornece definições padronizadas para status de pedidos, mensagens de eventos e utilitários para facilitar a integração entre diferentes microserviços.
+O FastTechFoodsOrder.Shared é uma biblioteca desenvolvida para centralizar componentes comuns utilizados no ecossistema de pedidos do FastTechFoods. Esta biblioteca fornece definições padronizadas para status de pedidos, mensagens de eventos, constantes de mensageria, Result Pattern e utilitários para facilitar a integração entre diferentes microserviços.
 
 ### Características
 
 - ✅ **Enums padronizados** para status de pedidos
 - ✅ **Mensagens de eventos** tipadas para integração entre microserviços
 - ✅ **Utilitários** para conversão e validação de status
+- ✅ **Constantes** para nomes de filas, exchanges e routing keys
+- ✅ **Result Pattern** para padronização de retornos
 - ✅ **Validação de transições** de status
 - ✅ **Compatibilidade** com .NET 9.0
 - ✅ **Nullable reference types** habilitado

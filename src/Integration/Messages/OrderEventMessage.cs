@@ -3,9 +3,9 @@
     public class OrderEventMessage
     {
         public required string OrderId { get; set; }
-        public string EventType { get; set; }
+        public required string EventType { get; set; }
         public DateTime EventDate { get; set; }
-        public string CustomerId { get; set; }
+        public required string CustomerId { get; set; }
         public required string Status { get; set; }
     }
 
