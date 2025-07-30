@@ -45,6 +45,7 @@ namespace FastTechFoodsOrder.Shared.Constants
         /// </summary>
         public const string OrderCancelled = "order.cancelled.queue";
         public const string OrderUserCancelled = "order.user.cancelled.queue";
+        public const string OrderDlQ = "order.dlq.queue";
 
         /// <summary>
         /// Obtém todas as filas de eventos de pedidos
@@ -61,7 +62,8 @@ namespace FastTechFoodsOrder.Shared.Constants
                 OrderReady,
                 OrderDelivered,
                 OrderCompleted,
-                OrderCancelled
+                OrderCancelled,
+                OrderDlQ
             };
         }
 
